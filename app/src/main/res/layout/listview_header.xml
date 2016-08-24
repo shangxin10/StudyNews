@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="20dp"
+            android:id="@+id/header_arrow"
+            android:src="@mipmap/listview_header_arrow"/>
+        <ProgressBar
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/header_progressbar"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header_tv"
+        android:text="@string/refresh"
+        ></TextView>
+</RelativeLayout>

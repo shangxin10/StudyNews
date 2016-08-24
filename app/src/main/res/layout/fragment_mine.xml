@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/theme"
+        >
+
+        <com.vector.studynews.view.CircleImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/iv_photo"
+            android:src="@mipmap/index1"/>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/username"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title"
+                android:textStyle="bold"
+                android:text="vector"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/motto"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/menu"
+                android:textColor="@color/white"
+                android:text="梦想不是想想而已"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/theme"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/menu"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="昨天收益"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/menu"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="IO币总额"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/theme"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/title"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="0"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="0"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/iv_gift"
+            android:layout_margin="10dp"
+            android:src="@mipmap/nav_icon_gift"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/iv_gift"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:text="礼物兑换"
+            android:id="@+id/tv_gift_title"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/gray"
+            android:text="IO币免费换好礼"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_gift_info"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        />
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/iv_share"
+            android:layout_margin="10dp"
+
+            android:src="@mipmap/nav_icon_my_shares"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/iv_share"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_centerVertical="true"
+            android:text="礼物兑换"
+            android:id="@+id/tv_share_title"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/gray"
+            android:text="10"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_share_info"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        />
+</LinearLayout>

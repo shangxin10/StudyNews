@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme">#2d66f5</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="gray">#564e4e</color>
+    <color name="littlewhite">#7fbfff</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+</resources>

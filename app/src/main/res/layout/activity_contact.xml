@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@color/theme"
+        android:id="@+id/rl_topbar"
+        >
+        <ImageView android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:id="@+id/iv_back"
+            android:src="@mipmap/ic_richpush_actionbar_back"
+            android:scaleType="fitCenter"
+            android:padding="13dp"
+            android:layout_alignParentLeft="true"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/chat_title"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/title"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/contact"/>
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/chat_add"
+            android:layout_alignParentRight="true"
+            android:id="@+id/iv_delete"/>
+    </RelativeLayout>
+</RelativeLayout>

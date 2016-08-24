@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/message_items">
+    <RelativeLayout
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        >
+        <ImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:layout_margin="8dp"
+            android:src="@mipmap/photo"/>
+        <TextView android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:background="@mipmap/bg_num"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/message_num"
+            android:layout_marginRight="2dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/message_title"
+                android:layout_alignParentLeft="true"
+                android:textSize="@dimen/title"
+                android:text="聊天室"/>
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="@color/gray"
+                android:id="@+id/message_time"
+                android:textSize="@dimen/menu"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:text="19:00"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/message_info"
+                android:textSize="@dimen/title"
+                android:text="聊天室"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

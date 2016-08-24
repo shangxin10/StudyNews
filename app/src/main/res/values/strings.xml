@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">StudyNews</string>
+    <string name="name">技术盒子</string>
+    <string name="index">精选</string>
+    <string name="subscribe">订阅</string>
+    <string name="message">消息</string>
+    <string name="discover">发现</string>
+    <string name="loadmore">加载更多</string>
+    <string name="refresh">下拉刷新</string>
+    <string name="source">选自</string>
+    <string name="log_username">手机号/邮箱</string>
+    <string name="log_password">密码</string>
+    <string name="forgetpassword">忘记密码</string>
+    <string name="registeraccount">注册账号</string>
+    <string name="login">登录</string>
+    <string name="logining">登录中</string>
+    <string name="contact">通讯录</string>
+    <string name="btn_pushtotalk">按住说话</string>
+    <string name="btn_send">发送</string>
+    <string name="connect_failuer_toast">请检查网络或稍候重试</string>
+    <string name="error_send_not_in_the_group">你已经不在此群了</string>
+    <string name="error_send_invalid_content">你发送了不合法的消息内容</string>
+    <string name="send_fail">发送消息失败,</string>
+    <string name="attach_smile">表情</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_video">视频</string>
+    <string name="attach_file">文件</string>
+    <string name="attach_voice_call">语音电话</string>
+    <string name="attach_video_call">视频通话</string>
+</resources>

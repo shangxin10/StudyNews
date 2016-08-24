@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+    <declare-styleable name="ChatExtendMenu">
+        <attr name="numColumns" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="EmojiconMenu">
+        <attr name="bigEmojiconRows" format="integer"/>
+        <attr name="emojiconColumns" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="ChatMessageList">
+        <attr name="msgListMyBubbleBackground" format="reference"></attr>
+        <attr name="msgListOtherBubbleBackground" format="reference"></attr>
+        <attr name="msgListShowUserAvatar" format="boolean"/>
+        <attr name="msgListShowUserNick" format="boolean"/>
+    </declare-styleable>
+</resources>
